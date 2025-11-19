@@ -1,0 +1,36 @@
+/* Fuente general */
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+/* Hero: mejora legibilidad del texto */
+header h1,
+header p {
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.35);
+}
+
+/* Imágenes dentro de tarjetas de productos */
+.card img {
+  object-fit: cover;
+  max-height: 260px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+  font-size: 0.95rem;
+}
+
+/* Botones*/
+.btn-primary {
+  background-color: #0066ff;
+  border-color: #0066ff;
+}
+
+.btn-primary:hover {
+  background-color: #0052d6;
+  border-color: #0052d6;
+}
